@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Insert Key to Virtual NumLock &#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594;&#8594; Rawlings</name>
+        <appendix>Unlike Fn_Lock, retaining cursor keys, delete key.</appendix>
+        <item>
+            <name>Virtual NumLock</name>
+            <appendix>6 7 8 9 0 - &#8594; Clear 7 8 9 / =</appendix>
+            <appendix>U I O P &#8594; 4 5 6 *</appendix>
+            <appendix>J K L ; &#8594; 1 2 3 -</appendix>
+            <appendix>M . / &#8594; 0 . +</appendix>
+            <identifier vk_config="true">notsave.virtual_numlock_byRawlings</identifier>
+            <autogen>__ShowStatusMessage__ NumLock</autogen>
+            <autogen>__KeyToKey__ KeyCode::M,         KeyCode::KEYPAD_0</autogen>
+            <autogen>__KeyToKey__ KeyCode::J,         KeyCode::KEYPAD_1</autogen>
+            <autogen>__KeyToKey__ KeyCode::K,         KeyCode::KEYPAD_2</autogen>
+            <autogen>__KeyToKey__ KeyCode::L,         KeyCode::KEYPAD_3</autogen>
+            <autogen>__KeyToKey__ KeyCode::U,         KeyCode::KEYPAD_4</autogen>
+            <autogen>__KeyToKey__ KeyCode::I,         KeyCode::KEYPAD_5</autogen>
+            <autogen>__KeyToKey__ KeyCode::O,         KeyCode::KEYPAD_6</autogen>
+            <autogen>__KeyToKey__ KeyCode::KEY_7,     KeyCode::KEYPAD_7</autogen>
+            <autogen>__KeyToKey__ KeyCode::KEY_8,     KeyCode::KEYPAD_8</autogen>
+            <autogen>__KeyToKey__ KeyCode::KEY_9,     KeyCode::KEYPAD_9</autogen>
+            <autogen>__KeyToKey__ KeyCode::KEY_6,     KeyCode::KEYPAD_CLEAR</autogen>
+            <autogen>__KeyToKey__ KeyCode::SLASH,     KeyCode::KEYPAD_PLUS</autogen>
+            <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEYPAD_MINUS</autogen>
+            <autogen>__KeyToKey__ KeyCode::P,         KeyCode::KEYPAD_MULTIPLY</autogen>
+            <autogen>__KeyToKey__ KeyCode::KEY_0,     KeyCode::KEYPAD_SLASH</autogen>
+            <autogen>__KeyToKey__ KeyCode::MINUS,     KeyCode::KEYPAD_EQUAL</autogen>
+            <autogen>__KeyToKey__ KeyCode::DOT,       KeyCode::KEYPAD_DOT</autogen>
+        </item>
+        <item>
+            <name>Insert Key to toggle "Virtual NumLock"</name>
+            <identifier>remap.InsertMode_to_virtual_numlock</identifier>
+            <autogen>__KeyToKey__ KeyCode::HELP, KeyCode::VK_CONFIG_TOGGLE_notsave_virtual_numlock_byRawlings</autogen>
+        </item>
+    </item>
+</root>
