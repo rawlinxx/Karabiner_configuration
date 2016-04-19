@@ -37,18 +37,20 @@
     </item>
     
     <item>
-        <name>Virtual Direction Key (W S A D)</name>
-        <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
-        <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
-        <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
-        <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
+        <name>Virtual Direction Key (W A S D)</name>
+        <identifier>private.Virtual_Direction_map1_byRawlings</identifier>
+        <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::OPTION_R, KeyCode::CURSOR_UP</autogen>
+        <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::OPTION_R, KeyCode::CURSOR_DOWN</autogen>
+        <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::OPTION_R, KeyCode::CURSOR_LEFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::OPTION_R, KeyCode::CURSOR_RIGHT</autogen>
     </item>
     
     <item>
-        <name>Virtual Direction Key (E D S F)</name>
-        <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
-        <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
-        <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
-        <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
+        <name>Virtual Direction Key (E S D F)</name>
+        <identifier>private.Virtual_Direction_map2_byRawlings</identifier>
+        <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::OPTION_R, KeyCode::CURSOR_UP</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::OPTION_R, KeyCode::CURSOR_DOWN</autogen>
+        <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::OPTION_R, KeyCode::CURSOR_LEFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::OPTION_R, KeyCode::CURSOR_RIGHT</autogen>
     </item>
 </root>
